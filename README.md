@@ -4,11 +4,11 @@ branch is 1245
 using
 
 git rebase master (from branch);
-#ctrl X - to out insert screen
-#--fix conflict of commit 4 with master (1234). (b)
-#git add.
-#--git rebase -- continue
-#--fix conflict of commit 5 with (b)
-#git add .
-#--git rebase --continue to insert commit
-#--git push -f
+1.#ctrl X - to out insert screen
+2.#--fix conflict of commit 4 with master (1234). (b)
+3.#git add.
+4.#--git rebase -- continue
+5.#--fix conflict of commit 5 with (b)
+6.#git add .
+7.#--git rebase --continue to insert commit
+8.#--git push -f
