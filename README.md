@@ -16,3 +16,12 @@ git rebase master (from branch);
 8.#--git push -f
 
 ** rebase will fix conflict each commit with master.
+
+*** rename branch in local and remote
+1. local:
+#git branch -m old-name new-name
+vertify 
+#git branch -a 
+2. remote
+#git push origin :old-name new-name
+#git push origin HEAD (ddto push code to remote has same name ) (exmple: local thai ---> thai)
