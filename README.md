@@ -27,7 +27,8 @@ vertify
 #git push origin HEAD (ddto push code to remote has same name ) (exmple: local thai ---> thai)
 
 ***merge many commit to one: orgin: https://hoangphiit.com/post/cach-gop-nhieu-commit-thanh-mot-voi-git-rebase
-1.#git rebase -i HEAD~N (N = number commit)
+1.#
+![image](https://user-images.githubusercontent.com/72178224/190999109-3d7ebb4d-dea7-4e46-acf0-a2fa063e5015.png)
 2.#
 ![image](https://user-images.githubusercontent.com/72178224/190998227-1a19cff5-1466-4446-8c4c-e004e4a54252.png)
 3. #
