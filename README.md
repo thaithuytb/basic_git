@@ -2,6 +2,10 @@
 if master is 1,2,3
 branch is 1245
 using
+### note...
+1. merge sẽ sinh thêm 1 commit, còn rebse thì mình có thể sửa trực tiếp commit từ commit bị conflict.
+2. merge thì các commit nào đc commit trước ( theo thời gian ) sẽ đc đẩy lên trước.
+3. rebase sẽ đẩy commit của mình ( nhánh đang làm lên đầu ).
 
 ** process
 
