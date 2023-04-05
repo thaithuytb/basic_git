@@ -40,7 +40,7 @@ function CustomDecorator(x: number) {
 //custom Decorator method
 
 class MathDecorator {
-    //Decorator method nào gần function nhất sẽ thực thi trước....Như dưới là decorator X2 sẽ thực thi trước
+    //Decorator method nào gần đặt trên cùng sẽ thực thi trước....Như dưới là decorator logger sẽ thực thi trước
     @Logger
     @X2
     sum (a: number, b: number) {
